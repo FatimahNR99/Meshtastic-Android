@@ -77,7 +77,7 @@
         android:name="com.geeksville.mesh.MeshUtilApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher2"
-        android:label="HAMS"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher2_round"
         android:supportsRtl="true"
         android:hardwareAccelerated="true"
