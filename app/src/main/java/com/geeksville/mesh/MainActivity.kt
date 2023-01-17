@@ -199,9 +199,9 @@ class MainActivity : AppCompatActivity(), Logging {
         super.onCreate(savedInstanceState)
 
         val prefs = UIViewModel.getPreferences(this)
-        if (!prefs.getBoolean("app_intro_completed", false)) {
-            startActivity(Intent(this, AppIntroduction::class.java))
-        }
+//        if (!prefs.getBoolean("app_intro_completed", false)) {
+//            startActivity(Intent(this, AppIntroduction::class.java))
+//        }
         // First run: migrate in-app language prefs to appcompat
         if (prefs.getString("lang", LanguageUtils.SYSTEM_DEFAULT) != LanguageUtils.SYSTEM_MANAGED) {
             LanguageUtils.migrateLanguagePrefs(prefs)
