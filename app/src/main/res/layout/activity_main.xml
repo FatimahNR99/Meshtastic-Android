@@ -31,17 +31,17 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
-                    <ImageView
-                        android:id="@+id/appIconImageVIew"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:contentDescription="@string/application_icon"
-                        android:scaleType="center"
-                        android:scaleX="1.5"
-                        android:scaleY="1.5"
-                        app:srcCompat="@drawable/app_icon"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="18dp" />
+<!--                    <ImageView-->
+<!--                        android:id="@+id/appIconImageVIew"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:contentDescription="@string/application_icon"-->
+<!--                        android:scaleType="center"-->
+<!--                        android:scaleX="1.5"-->
+<!--                        android:scaleY="1.5"-->
+<!--                        app:srcCompat="@drawable/app_icon"-->
+<!--                        tools:layout_editor_absoluteX="16dp"-->
+<!--                        tools:layout_editor_absoluteY="18dp" />-->
 
                     <TextView
                         android:id="@+id/title"
