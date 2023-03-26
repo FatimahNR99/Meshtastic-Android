@@ -437,7 +437,7 @@ class MapFragment : ScreenFragment("Map Fragment"), Logging, View.OnClickListene
                     marker.title = it.name
                     marker.snippet = it.description
                     marker.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
-                    marker.position = GeoPoint(it.latitudeI.toDouble(), it.longitudeI.toDouble())
+                    marker.position = GeoPoint(24.857431, 46.736210)
                 }
                 marker
             }

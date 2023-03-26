@@ -179,7 +179,7 @@ class MainActivity : AppCompatActivity(), Logging {
     }
 
     /// Ask user to rate in play store
-    private fun askToRate() {
+    /*private fun askToRate() {
         exceptionReporter { // we don't want to crash our app because of bugs in this optional feature
             AppRating.Builder(this)
                 .setMinimumLaunchTimes(10) // default is 5, 3 means app is launched 3 or more times
@@ -188,7 +188,7 @@ class MainActivity : AppCompatActivity(), Logging {
                 .setMinimumDaysToShowAgain(14) // default is 14, 1 means app is launched 1 or more days after neutral button clicked
                 .showIfMeetsConditions()
         }
-    }
+    }*/
 
     private val isInTestLab: Boolean by lazy {
         (application as GeeksvilleApplication).isInTestLab
@@ -232,7 +232,7 @@ class MainActivity : AppCompatActivity(), Logging {
         // Handle any intent
         handleIntent(intent)
 
-        if (isGooglePlayAvailable(this)) askToRate()
+        //if (isGooglePlayAvailable(this)) askToRate()
     }
 
     private fun initToolbar() {
